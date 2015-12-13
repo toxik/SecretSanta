@@ -1,0 +1,31 @@
+{
+  "mail_options": {
+    "from": "Santa Claus's Reindeer <your@email.com>",
+    "replyTo": "Santa Claus's Elf <your@email.com>",
+    "subject": "❄ Santa Claus's Reindeer drew you a colleague! ❄"
+  },
+  "mail_transport": {
+    "service": "Gmail",
+    "auth": {
+        "user": "your@email.com",
+        "pass": "your_password"
+    }
+  },
+  "participants": [
+    {
+      "email": "secret@reindeer.com",
+      "name" : "Secret Reindeer",
+      "sex"  : "M"
+    },
+    {
+      "email": "rudolph@reindeer.com",
+      "name" : "Rudolph Reindeer",
+      "sex"  : "F"
+    },
+    {
+      "email": "dasher@reindeer.com",
+      "name" : "Dasher Reindeer",
+      "sex"  : "M"
+    }
+  ]
+}
