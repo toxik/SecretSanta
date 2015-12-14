@@ -2,13 +2,12 @@
 const crypto = require('crypto');
 const upperLimitUInt32 = Math.pow(2, 32) - 1;
 
-let present_pairs = [];
-
 function random_safe(limit) {
     return ~~(crypto.randomBytes(4).readUInt32LE() / upperLimitUInt32 * limit);
 }
 
 function generate(participants) {
+  let present_pairs = [];
   let participants_copy = participants.slice(0, participants.length);
   while (participants.length > 0) {
     var pick_sender = random_safe(participants.length);
@@ -39,5 +38,4 @@ function generate(participants) {
   return present_pairs;
 }
 
-module.exports = { generate, random_number: random_safe };
-//module.exports.default = generator;
+module.exports = { generate, random_number: random_safe, default: generate };
