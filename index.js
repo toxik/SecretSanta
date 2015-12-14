@@ -24,7 +24,7 @@ let send_mail = function(pair) {
 
   transporter.sendMail(mail_options, function(error, info){
       if(error){
-          return console.log(`Error sending message to ${mail_options.to}`, error);
+          return console.log(`Error sending message to ${mail_options.to}`, error, pair + "");
       }
       console.log(`Message sent to ${mail_options.to}: ${info.response}`);
   });
@@ -33,3 +33,6 @@ let send_mail = function(pair) {
 
 // Send ALL the emails!
 generator.generate(participants).forEach(send_mail)
+// if you want to see possible combinations comment the above line
+// and uncomment the line below:
+//console.log(generator.generate(participants).map((pair)=>(pair+"")))
