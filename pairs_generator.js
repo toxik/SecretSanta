@@ -30,7 +30,7 @@ function generate(participants) {
       sender: participants.splice(pick_sender, 1)[0],
       receiver: participants_copy.splice(pick_receiver, 1)[0],
       toString() {
-        return `${this.sender.name} ⇾ ${this.receiver.name}`;
+        return `${this.sender.name} ⇾ ${this.receiver.name} (${this.receiver.sex})`;
       }
     };
 
