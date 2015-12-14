@@ -1,7 +1,7 @@
 {
   "name": "SecretSanta",
-  "version": "1.0.0",
-  "description": "A module for sending secret santa emails",
+  "version": "1.0.1",
+  "description": "A module for mixing presents and sending Secret Santa emails",
   "main": "index.js",
   "dependencies": {
     "nodemailer": "^1.10.0"

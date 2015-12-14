@@ -1,8 +1,11 @@
 {
+  "language": "en",
   "mail_options": {
     "from": "Santa Claus's Reindeer <your@email.com>",
     "replyTo": "Santa Claus's Elf <your@email.com>",
-    "subject": "❄ Santa Claus's Reindeer drew you a colleague! ❄"
+    "subject": "❄ Santa Claus's Reindeer drew you a colleague! ❄",
+    "lucky_M": "The lucky guy",
+    "lucky_F": "The lucky gal"
   },
   "mail_transport": {
     "service": "Gmail",
