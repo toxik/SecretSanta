@@ -6,7 +6,7 @@ It is currently translated into English and Romanian.
 There's an HTML template (in the `templ` folder) which is used to give a nice winter-y form to the emails.
 
 Here's a screenshot from a Gmail received message:
-![](https://github.com/toxik/SecretSanta/blob/master/templ/images/gmail_screenshot.png)
+![](https://raw.githubusercontent.com/toxik/SecretSanta/master/templ/images/gmail_screenshot.png)
 
 ## Installation
 

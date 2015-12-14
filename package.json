@@ -1,6 +1,6 @@
 {
   "name": "secret-santa-emails",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A module for mixing presents and sending Secret Santa emails",
   "scripts": { "start" : "node index.js" },
   "dependencies": {

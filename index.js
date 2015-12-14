@@ -32,7 +32,7 @@ let send_mail = function(pair) {
 }
 
 // Send ALL the emails!
-//generator.generate(participants).forEach(send_mail)
+generator.generate(participants).forEach(send_mail)
 // if you want to see possible combinations comment the above line
 // and uncomment the line below:
-console.log(generator.generate(participants).map((pair)=>(pair+"")))
+//console.log(generator.generate(participants).map((pair)=>(pair+"")))
