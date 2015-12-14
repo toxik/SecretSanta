@@ -15,7 +15,7 @@ function generate(participants) {
 
     // when only two persons are left, pick manually the only viable option
     // if it wasn't already picked
-    if (participants.length >= 2 &&
+    if (participants.length === 2 &&
         (participants[pick_sender].email === participants_copy[pick_receiver].email
          || participants[~~!pick_sender].email === participants_copy[~~!pick_receiver].email)
        ) {

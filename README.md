@@ -11,14 +11,14 @@ Here's a screenshot from a Gmail received message:
 ## Installation
 
 1. `git clone https://github.com/toxik/SecretSanta.git`
-2. npm install (for the `nodemailer` dependency)
+2. `cd SecretSanta && npm install` (for the `nodemailer` dependency)
 
 ## Usage
 
 1. clone the `settings.json.sample` into `settings.json`
   1. add the details for the persons you want shuffled: name, email, sex
   2. configure your email provider (smtp/gmail etc. see [the nodemailer project](https://github.com/andris9/Nodemailer) for all available settings)
-2. npm start
+2. `npm start`
 
 ## Credits
 
@@ -26,4 +26,4 @@ Alexandru Georoceanu
 
 ## License
 
-TODO: Write license
+MIT
